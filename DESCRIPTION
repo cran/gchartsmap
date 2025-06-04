@@ -1,0 +1,33 @@
+Package: gchartsmap
+Type: Package
+Title: Access 'Google Charts' Map Data
+Version: 0.1.2
+Authors@R: c(
+    person(
+      given = "Oscar",
+      family = "de Leon",
+      email = "odeleon@emory.edu",
+      role = c("aut", "cre", "cph"),
+      comment = c(ORCID = "0000-0003-1344-4412")
+      )
+    )
+Description: Connects to the 'Google Charts' geographic data resources hosted at
+    <https://www.gstatic.com/charts/geochart/10/mapfiles/US-500_METROS.js>, allowing
+    the user to download contents to use as a reference for related services
+    like 'Google Trends'.
+License: GPL-3
+URL: https://github.com/odeleongt/gchartsmap
+Imports: httr, jsonlite, sf, tigris
+Encoding: UTF-8
+RoxygenNote: 7.3.2
+Depends: R (>= 4.1.0)
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+BugReports: https://github.com/odeleongt/gchartsmap/issues
+NeedsCompilation: no
+Packaged: 2025-05-31 14:28:56 UTC; oscar
+Author: Oscar de Leon [aut, cre, cph] (ORCID:
+    <https://orcid.org/0000-0003-1344-4412>)
+Maintainer: Oscar de Leon <odeleon@emory.edu>
+Repository: CRAN
+Date/Publication: 2025-06-04 12:00:08 UTC

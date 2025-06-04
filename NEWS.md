@@ -1,0 +1,17 @@
+# gchartsmap 0.1.2
+
+- Only generate areas requested in the function call.
+- Fix CRAN submission requests.
+
+# gchartsmap 0.1.1
+
+- Fix errors in examples.
+
+
+# gchartsmap 0.1.0
+
+* Initial CRAN submission.
+
+- Interfaces with static Google Chart resources.
+- GETs available US area geographic data.
+- Processes into a `sf` object.
